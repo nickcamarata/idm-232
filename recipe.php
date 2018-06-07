@@ -1,44 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+	require_once "includes/db.php";
 
-<head>
-	<title>The Cutting Board</title>
-	<!-- META -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- CSS -->
-	<link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="main.css">
-    <style>
-        @font-face{
-            font-family: 'Pen';
-            src: url('ChewedPenBB_ital.otf');}
-    </style>
-</head>
+    // Get the `id` from the URL parameter.
+	  $id = isset($_GET['id']) ? $_GET['id'] : null;
+	  // If no parameter is provided, redirect to the home page.
+	  
 
-<body>
-        <!-- PAGE CONTENT -->
-        <div id="wrapper">
-                <div id="title">
-                    <br>
-                <a href="index.html"><h1>The Cutting Board</h1></a>
-            </div>
-            <div id="nav">
-                <div id="meals">
-                    <img id="paper" src="assets/paper.png" alt="paper">
-                    <a id="meal" href="index.html">
-                        <h2>Recipes</h2>
-                    </a>
-                </div>
-                <!--<div id="prints">
-                    <img id="paper2" src="assets/paper2.png" alt="paper">
-                    <a id="print" href="index.html">
-                        <h2>Print</h2>
-                    </a>
-                </div>-->
-            </div> 
-            
+	  
+
+
+	  if (!$id) redirect_to('index.php');
+	  else {
+	    // Parameter is provided.
+	    // Look for a matching ID in the database.
+	    $query1 = 'SELECT * ';
+	    $query1 .= 'FROM wines ';
+	    $query1 .= "WHERE id = '{$id}' ";
+	    $result1 = mysqli_query($connection, $query1);
+	    if (!$result1) {
+	      die('Database query failed.'.$query1);
+	    }
+	    
+
+	  }
+
+	  require_once "includes/header.php";
+	  $details = mysqli_fetch_assoc($result1);
+
+?>
+
+
             <div id="sheet">
                 <br>
                     <h5>Honey-Butter Barramundi</h5>
