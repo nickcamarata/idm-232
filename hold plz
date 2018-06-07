@@ -1,0 +1,15 @@
+<?php while ($row = mysqli_fetch_assoc($result)) { ?>
+    <li>4 Skin-On Barramundi Fillets </li>
+
+
+<?php } ?> 
+
+
+WHERE keyo = '{$id}'
+
+
+
+$query2 = "SELECT * FROM {$table2}";
+    $query2 .= "WHERE keyo = '{$id}'";
+
+

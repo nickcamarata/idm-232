@@ -2,7 +2,7 @@
     $dbhost = "localhost";
     $dbuser ="root";
     $dbpass = "root";
-    $dbname="example";
+    $dbname="cuttingboard";
     $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
     if (mysqli_connect_errno()) {

@@ -1,17 +1,22 @@
-html, body{
+html, body, wrapper{
     background-image: url("assets/background.jpg");
     margin: 0px;
     padding: 0px;
     background-size: 700px;
 }
 
+footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0px;
+}
+
 #nav{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
-form{
-    padding: 20px 5px 0px 0px;
-}
+
 #recipe{
     background-image: url("assets/napkin.png");
     width: 300px;
@@ -93,11 +98,10 @@ a:link {
     height: 50px;
 }
 
-#print{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+p, ul{
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
@@ -121,7 +125,7 @@ ul{
 h3{
     font-family: Pen, cursive;
     color: #000;
-    line-height:0px;
+    line-height:25px;
     font-size: 1.5rem;
 }
 
@@ -130,8 +134,9 @@ h4{
     color: #777;
     text-decoration: none;
         padding-bottom: 0px;
-        line-height:10px;
+        line-height:20px;
         font-size: 1.1rem;
+        max-width: 700px;
 }
 
 input {
@@ -159,16 +164,12 @@ h5{
     padding: 20px 10px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-gap: 25px;
     margin: 0px auto;
     text-align: justify;
 }
 
 @media screen and (max-width : 400px) {
-    
-    h4{
-        padding-bottom: 20px;
-    }
 }
 
 @media screen and (min-width : 400px) {
@@ -178,13 +179,26 @@ h5{
     }
 }
 
-@media screen and (min-width : 650px) {
-    
-#grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-  }
+@media screen and (min-width : 675px) {
+    #sheet{
+        background-image: url("assets/sheet.png");
+        background-size: 100%;
+        width: 675px;
+        margin: 0px auto;
+        text-align: center;
+    }
+    h4{
+        padding-bottom: 20px;
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        margin: 0 auto;
+        padding: 0px;
+        max-width: 650px;
+      }
   h4{
     padding-bottom: 0px;
 }
@@ -198,31 +212,42 @@ h5{
         font-size: 2.5em;
         padding: 10px;
     }
-#sheet{
-    background-image: url("assets/sheet.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    width: 720px;
-    margin: 0px auto;
-    text-align: center;
-}
 
-#onsheet{
-    width: 585px;
-    padding: 20px 10px;
+#grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    margin: 0px 90px;
-    text-align: justify;
-    background-color: #fff;
+    grid-gap: 50px;
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 650px;
+  }
 }
-}
-@media screen and (min-width : 1000px) {
+@media screen and (min-width : 1050px) {
+    #sheet{
+        background-image: url("assets/sheet_big.png");
+        background-size: 100%;
+        width: 900px;
+        margin: 0px auto;
+        text-align: center;
+    }
+    
+    #onsheet{
+        width: 585px;
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        margin: 0px auto;
+        text-align: justify;
+        background-color: #fff;
+    }
+    
     #grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
+        grid-gap: 50px;
+        margin: 0 auto;
+        max-width: 1015px;
       }
       
       h4{
@@ -230,11 +255,13 @@ h5{
     }
 }
 
-@media screen and (min-width : 1250px) {
+@media screen and (min-width : 1550px) {
     #grid {
+        margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 20px;
+        grid-gap: 75px;
+        max-width:1450px;
       }
       h4{
         padding-bottom: 0px;
