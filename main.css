@@ -25,6 +25,13 @@ footer{
     padding: 0px;
 }
 
+footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0px;
+}
+
 #nav{
     display:grid;
 <<<<<<< HEAD
@@ -150,7 +157,11 @@ form{
 
 p, ul{
 <<<<<<< HEAD
+<<<<<<< HEAD
     max-width: 300px;
+=======
+    max-width: 500px;
+>>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
 =======
     max-width: 500px;
 >>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
@@ -307,6 +318,7 @@ h5{
     max-width: 650px;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 #tags{
@@ -320,6 +332,10 @@ h5{
     margin: 10px;
 }
 @media screen and (min-width : 1070px) {
+=======
+}
+@media screen and (min-width : 1050px) {
+>>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
 =======
 }
 @media screen and (min-width : 1050px) {
@@ -344,10 +360,13 @@ h5{
     }
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     #nav{
         width: 1040px;
     }
 
+=======
+>>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
 =======
 >>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
     #grid {

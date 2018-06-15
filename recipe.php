@@ -18,7 +18,10 @@
       $details = mysqli_fetch_assoc($result1);
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
     $table2 = "ingredients";
     $query2 = "SELECT * FROM {$table2} WHERE keyo = '{$id}'";
     $result2 = mysqli_query($connection, $query2);
@@ -33,6 +36,7 @@
         die("Database query failed.");
     }
 ?>
+<<<<<<< HEAD
  
     $table2 = "ingredients";
     $query2 = "SELECT * FROM {$table2} WHERE keyo = '{$id}'";
@@ -40,6 +44,9 @@
     if (!$result2) {
         die("Database query failed.");
     }
+=======
+    
+>>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
 
     $table3 = "directions";
     $query3 = "SELECT * FROM {$table3} WHERE keyo = '{$id}'";

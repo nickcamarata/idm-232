@@ -2,7 +2,10 @@
 	require_once "includes/db.php";
 
     $table = "main";
+<<<<<<< HEAD
     $query = "SELECT * FROM {$table} ";
+=======
+>>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
     $query = "SELECT * FROM {$table}";
     $result = mysqli_query($connection, $query);
     
@@ -10,10 +13,13 @@
         die("Database query failed.");
     }
 
+<<<<<<< HEAD
     $table2 = "tags";
     $query2 = "SELECT * FROM {$table2} WHERE ";
     $result2 = mysqli_query($connection, $query);
 
+=======
+>>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
     require_once "includes/header.php";
 ?>
 <!-- Continue page body -->
