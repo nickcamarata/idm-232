@@ -1,0 +1,20 @@
+[07-Jun-2018 05:16:31 America/Chicago] PHP Warning:  require_once(includes/db.php): failed to open stream: No such file or directory in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:31 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'includes/db.php' (include_path='.:/opt/php70/lib/php') in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:31 America/Chicago] PHP Warning:  require_once(includes/db.php): failed to open stream: No such file or directory in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:31 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'includes/db.php' (include_path='.:/opt/php70/lib/php') in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:32 America/Chicago] PHP Warning:  require_once(includes/db.php): failed to open stream: No such file or directory in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:32 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'includes/db.php' (include_path='.:/opt/php70/lib/php') in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:32 America/Chicago] PHP Warning:  require_once(includes/db.php): failed to open stream: No such file or directory in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:32 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'includes/db.php' (include_path='.:/opt/php70/lib/php') in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:35 America/Chicago] PHP Warning:  require_once(includes/db.php): failed to open stream: No such file or directory in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:35 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'includes/db.php' (include_path='.:/opt/php70/lib/php') in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:36 America/Chicago] PHP Warning:  require_once(includes/db.php): failed to open stream: No such file or directory in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:36 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'includes/db.php' (include_path='.:/opt/php70/lib/php') in /home2/nickcama/public_html/index.php on line 2
+[07-Jun-2018 05:16:43 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nickcama_idm232'@'box5022.bluehost.com' (using password: YES) in /home2/nickcama/public_html/includes/db.php on line 18
+[07-Jun-2018 05:16:43 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nickcama_idm232'@'box5022.bluehost.com' (using password: YES) in /home2/nickcama/public_html/includes/db.php on line 18
+[07-Jun-2018 05:22:21 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nickcama_ss_d663'@'box5022.bluehost.com' (using password: YES) in /home2/nickcama/public_html/includes/db.php on line 18
+[07-Jun-2018 05:22:21 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nickcama_ss_d663'@'box5022.bluehost.com' (using password: YES) in /home2/nickcama/public_html/includes/db.php on line 18
+[07-Jun-2018 06:06:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function redirect_to() in /home2/nickcama/public_html/recipe.php:4
+Stack trace:
+#0 {main}
+  thrown in /home2/nickcama/public_html/recipe.php on line 4
