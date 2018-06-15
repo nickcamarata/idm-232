@@ -16,9 +16,7 @@
 
 	  require_once "includes/header.php";
       $details = mysqli_fetch_assoc($result1);
-<<<<<<< HEAD
 
-=======
 
 
     $table2 = "ingredients";
@@ -35,9 +33,7 @@
         die("Database query failed.");
     }
 ?>
-    
->>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
-
+ 
     $table2 = "ingredients";
     $query2 = "SELECT * FROM {$table2} WHERE keyo = '{$id}'";
     $result2 = mysqli_query($connection, $query2);

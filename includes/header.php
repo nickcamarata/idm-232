@@ -28,8 +28,6 @@
             <a href="index.php"><h1>The Cutting Board</h1></a>
         </div>
         <div id="nav">
-                
-<<<<<<< HEAD
                 <div id="tags"><a href="tagged.php?tag=oven"><h2>Oven Bake</h2></a></div>
                 <div id="tags"><a href="tagged.php?tag=stir fry"><h2>Stir Fry</h2></a></div>
                 <div id="tags"><a href="tagged.php?tag=roast"><h2>Roast</h2></a></div>
@@ -38,12 +36,10 @@
                 <input id = "searchbutton" type="submit" value="Search">
                 <input id= "search" type="text" size="20" name="search">                
                 </form>
-                
-=======
+              
                 <div id="meals">
                     <img id="paper" src="assets/paper.png" alt="paper">
                     <a id="meal" href="index.php"><h2>Recipes</h2></a>
                 </div>
                 <!-- <form><input id= "search" type="text" size="20" placeholder="Search"></form> -->
->>>>>>> 775cc2c97463d52b80f42772a4c904efb52da77e
         </div> 
